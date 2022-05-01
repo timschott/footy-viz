@@ -30,7 +30,7 @@
 		<div class = "row form-group">
 			<p>Although the English men's soccer team is one of the oldest national teams in the world, they’ve only won a single major tournament: the 1966 World Cup.</p>
 			<p>Can they win this year's 2022 World Cup?</p>
-			<p>We'll analyze their squad through a few different perspectives, focusing on 3 key players:</p>
+			<p>In international soccer, teams don't have very much time to practice together, so the abilities of individuals often ends up deciding games. For this reason, we want to explore the statistics and performances of 3 key players. Their performance in the World Cup, we believe, hinges on the performances of these players.</p>
 		</div>
 	</div>
 	<div class="container" id = "card-container">
@@ -64,7 +64,7 @@
 			<p>The best players from across the world receive the honor to play for their country of origin's <i>national team</i>. The dynamics of each national team are fascinating, then, because players whose "day-jobs" are quite different from one another have to coalesce in short stints of "international breaks" throughout the club soccer season.</p>
 			<p>Winning the World Cup is the crown jewel for national teams. It's played every 4 years, and is the most-watched and most-prestigious sporting event in the world.</p> 
 			<p>Besides the World Cup, another major tournament England competes in is the European Cup ("The Euros") which is also played every 4 years.</p>
-			<p>To get a better sense of what a soccer team looks lke in action, we're going to introduce a few videos and screencaps from matches.</p>
+			<p>To get a better sense of what a soccer team looks lke in action, we're going to introduce a standard "tactics" boards and few videos from matches.</p>
 		</div>
 	</div>
 	<div class="container" id = "primer">
@@ -72,29 +72,35 @@
 			<h3>Match Footage</h3>
 		</div>
 		<div class = "row">
-			<h5>How are soccer teams structured?</h5>
+			<h5>What does a game of soccer look like?</h5>
 		</div>
 		<br>
+	</div>
 	<div class="d-flex justify-content-center" id="shot-graph-area">
 		<img src="extra/soccer_basic.png" alt="basic soccer setup" class="img-fluid">
-	</div><br>
-	<br>
-		<div class = "col">
-			<p>Below is footage from a club match in Germany. The team in blue, Hoffenheim, are trying to advance the ball upfield. 3 defenders are supported by a large group of 5 midfielders along with the 2 attacking forwards.</p>
-			<div class="embed-responsive embed-responsive-16by9">
-			<iframe embed-responsive-item src="https://www.youtube.com/embed/uY6tgCNg-cU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
-		</div>
-		<div class = "col">
-			<p>This is footage from a club match in England. The team in blue, Manchester City, enjoys most of the ball possession. You can see their aggressive defending style around the 40-second mark. They arrange their team differently than the first clip: 4 defenders at the back, and then a mixture of midfielders and forwards that lead their attacks on goal.</p>
-			<div class="embed-responsive embed-responsive-16by9">
-				<iframe embed-responsive-item src="https://www.youtube.com/embed/FONVyowNjUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
-		</div>
+	</div>
+	<div class="container" id ="basic-board-explainer">
 		<div class="row">
-			<p>It's common to classify the way that teams arrange their players into a <i>lineup</i>. These clips show different strategies, with Manchester City adopting something like a "4-5-1" and Hoffenheim adopting a "3-5-2." To interpret these labels, you read from left to right with the left most number representing the number of defenders. For instance, Manchester City used <b>4</b> defenders, <b>5</b> midfielders, and <b>1</b> forward.</p> 
-			<p>The choice of lineup is quite important because it implicates which players will be selected; you cannot have a team with 11 defenders running around. For national teams like England, the problem is magnified because every player is phenomenal. So, before exploring the strengths of our key players, we want to consider the best lineup choice for England.</p>
+			<p>This graphic segments the field into defending, midfield, and attacking zones.</p>
 		</div>
+	</div>
+	<br>
+	<br>
+	<div class = "col">
+		<p>Below is footage from a club match in Germany. The team in blue, Hoffenheim, are trying to advance the ball upfield (to the left, in this perspective). 3 defenders are supported by a large group of 5 midfielders along with the 2 attacking forwards.</p>
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe embed-responsive-item src="https://www.youtube.com/embed/uY6tgCNg-cU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class = "col">
+		<p>This is footage from a club match in England. The team in blue, Manchester City, enjoys most of the ball possession as they attempt to score (attacking to the left, from this perspective). You can see their aggressive defending style around the 40-second mark. They arrange their team differently than the first clip: 4 defenders at the back, and then a mixture of midfielders and forwards that lead their attacks on goal.</p>
+		<div class="embed-responsive embed-responsive-16by9">
+			<iframe embed-responsive-item src="https://www.youtube.com/embed/FONVyowNjUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="row">
+		<p>It's common to classify the way that teams arrange their players into a <i>lineup</i>. These clips show different strategies, with Manchester City adopting something like a "4-5-1" and Hoffenheim adopting a "3-5-2." To interpret these labels, you read from left to right with the left most number representing the number of defenders. For instance, Manchester City used <b>4</b> defenders, <b>5</b> midfielders, and <b>1</b> forward.</p> 
+		<p>The choice of lineup is quite important because it implicates which players will be selected; you cannot have a team with 11 defenders running around. For national teams like England, the problem is magnified because every player is phenomenal. So, before exploring the strengths of our key players, we want to consider the best lineup choice for England.</p>
 	</div>
 	<div class="container" id = "title-frame-for-d3">
 		<div class = "row">
@@ -211,40 +217,40 @@
 		<p>Going forward, England would do well to utilize his creativity by continuing to entrust him with the responsibility of creating scoring chances for strikers like Kane. Plus, as he continues to develop and gain experience, he'll also improve as a shooter and start to score goals of his own.</p>
 	</div>
 	
-<div class="container" id = "title-frame-for-kane">
+<div class="container" id = "title-frame-for-trent">
 		<div class = "row">
-			<h3>Trent Alexander Arnold (Defender)</h3>
+			<h3>Trent Alexander-Arnold (Defender)</h3>
 		</div>
 		<div class = "row">
-			<h5>What does Trent bring to the table?</h5>
+			<h5>What are Trent's strengths?</h5>
 		</div>
 	</div>
-	<div class="container" id="mount-intro">
+	<div class="container" id="trent-intro">
 		<div class="row">
-			<p>Trent is an up and coming defender who has consistently been performing very well in the local leagues but hasnt played alot in the international games. We feel he can make a big difference in helping Mount and Kane in winning games.</p>
+			<p>Trent is an up and coming defender who has consistently been performing very well in the local leagues but hasn't played a lot in England's international games. We feel his presence would make a big difference in helping Mount and Kane win games.</p>
 		</div>
 	</div>
 	<p>But before we begin, let us look at some ideal attacking and defensive radar charts so we can get a good baseline understanding of different playstyles.</p>
-	<div class="d-flex justify-content-center" id="mount-pass-area">
+	<div class="d-flex justify-content-center" id="joint-radar">
 		<img src="extra/together_base_final.png" alt="together radar image" class="img-fluid">
 	</div>
 	<p>Let us now contrast these shapes to how Trent compares to other talented defenders currently in Englands International team such as Kyle Walker.</p>
-	<div class="d-flex justify-content-center" id="mount-touch-area">
+	<div class="d-flex justify-content-center" id="trent-radar-image">
 		<img src="extra/trent_radar.png" alt="Trent Passing image" class="img-fluid">
 	</div>
 	<div class="row">
-		<p> By reflecting Trent and Kyles playstyle to the ideal attacking and defensive charts above you can see how Trent is more suited towards an attacking playstyle as compared to Kyle who is more defensive.</p>
+		<p> By imposing Trent and Kyle's play style against the ideal attacking and defensive charts above, you can see how Trent is more suited towards an attacking play style while Kyle who is more defensive.</p>
 	</div>
 	<div class="row">
-		<p> This data lays a strong argument that Trent's attacking playstyle will link very well with Mount and Kane to make England an aggressive goal scoring machine. We argue that such a combination can become a world cup winning strategy given how well all three players are currently performing. </p>
+		<p> This data lays a strong argument that Trent's attacking play style will link very well with Mount and Kane to make England an aggressive goal scoring machine. We argue that such a combination can become a World Cup winning strategy given how well all three players are currently performing.</p>
 	</div>
-	<div class="container" id = "title-frame-for-kane">
+	<div class="container" id = "title-frame-for-summary">
 		<div class = "row">
 			<h3>Summary</h3>
 		</div>
 	</div>
 	<div class="row">
-		<p> We think and the data supports that these three players playing key roles in attack, midfield and defence can make the difference that can help England bring the cup home this year. If you would like to learn more about the data we have used please refer to <a href="https://statsbomb.com/what-we-do/soccer-data/">StatsbombR</a> and <a href ="https://fbref.com/en/">fbref.com</a> which have albeit less data on international matches, has great information on soccer as a whole.</p>
+		<p>These three players playing key roles in attack, midfield and defence can make the difference for England to bring the cup home this year. If you would like to learn more about the data we have used, please refer to <a href="https://statsbomb.com/what-we-do/soccer-data/">StatsbombR</a> and <a href ="https://fbref.com/en/">fbref.com</a> which offer excellent interfaces and APIs for working with soccer data.</p>
 	</div>
 <footer class="site-footer">
 	<span class="site-footer-owner"><a href="https://github.com/timschott/footy-viz">footy-viz</a> is maintained by <a href="https://github.com/timschott">timschott</a>.</span>
