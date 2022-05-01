@@ -215,9 +215,11 @@
 	</div>
 	<br>
 	<br>
-	<div class="row">
-		<p>Mount touched the ball in all parts of the field, mostly past the halfway line. Mount is especially proactive in the <i>attacking third</i>, the third of the field closest to the oppositions goal. He had the most number of touches on the wide areas to the right and left of the goal (255 and 321 respectively).</p> 
-		<p>What makes him effective from these positions is that he can then play in passes for strikers like Harry Kane to score goals.</p>
+	<div class="container" id="mount-analysis">
+		<div class="row">
+			<p>Mount touched the ball in all parts of the field, mostly past the halfway line. Mount is especially proactive in the <i>attacking third</i>, the third of the field closest to the oppositions goal. He had the most number of touches on the wide areas to the right and left of the goal (255 and 321 respectively).</p> 
+			<p>What makes him effective from these positions is that he can then play in passes for strikers like Harry Kane to score goals.</p>
+		</div>
 	</div>
 	<br>
 	<br>
@@ -230,16 +232,18 @@
 		<img src="extra/mount-passes.png" alt="Mount Passes image" class="img-fluid">
 	</div>
 	<br>
-	<div class="row">
-		<p>This graphic visualizes the position of the ball and the direction of the pass. All of these passes have end positions in the attacking third. The cluster in the wing positions illustrate how much he likes to create plays in those positions and then eventually slide in passes in the centre.</p>
-		<p>Going forward, England would do well to utilize his creativity by continuing to entrust him with the responsibility of creating scoring chances for strikers like Kane. Plus, as he continues to develop and gain experience, he'll also improve as a shooter and start to score goals of his own.</p>
+	<div class="container" id ="mount-summary-text">
+		<div class="row">
+			<p>This graphic visualizes the position of the ball and the direction of the pass. All of these passes have end positions in the attacking third. The cluster in the wing positions illustrate how much he likes to create plays in those positions and then eventually slide in passes in the centre.</p>
+			<p>Going forward, England would do well to utilize his creativity by continuing to entrust him with the responsibility of creating scoring chances for strikers like Kane. Plus, as he continues to develop and gain experience, he'll also improve as a shooter and start to score goals of his own.</p>
+		</div>
 	</div>
 	<div class="container" id = "title-frame-for-trent">
 		<div class = "row">
 			<h3>Trent Alexander-Arnold (Defender)</h3>
 		</div>
 		<div class = "row">
-				<h5>What are Trent's strengths?</h5>
+			<h5>What are Trent's strengths?</h5>
 		</div>
 	</div>
 	<div class="container" id="trent-intro">
