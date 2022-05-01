@@ -14,9 +14,11 @@
 			<li>&nbsp;|&nbsp;</li>
 			<li><a href="#tactics" id ="tactics-nav">Tactics</a></li>
 			<li>&nbsp;|&nbsp;</li>
-			<li><a href="#harry-kane" id ="kane-nav">Harry Kane</a></li>
+			<li><a href="#harry-kane-striker-attacker" id ="kane-nav">Harry Kane</a></li>
 			<li>&nbsp;|&nbsp;</li>
-			<li><a href="#mason-mount" id ="mount-nav">Mason Mount</a></li>
+			<li><a href="#mason-mount-midfielder" id ="mount-nav">Mason Mount</a></li>
+			<li>&nbsp;|&nbsp;</li>
+			<li><a href="#trent-alexander-arnold-defender" id ="trent-nav">Trent Alexander-Arnold</a></li>
 		</ul>
 	</div>
 </header>
