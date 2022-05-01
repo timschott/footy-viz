@@ -74,8 +74,13 @@
 		<div class = "row">
 			<h5>How are soccer teams structured?</h5>
 		</div>
+		<br>
+	<div class="d-flex justify-content-center" id="shot-graph-area">
+		<img src="extra/soccer_basic.png" alt="basic soccer setup" class="img-fluid">
+	</div><br>
+	<br>
 		<div class = "col">
-			<p>This is footage from a club match in Germany. The team in blue, Hoffenheim, are trying to advance the ball upfield. 3 defenders are supported by a large group of 5 midfielders along with the 2 attacking forwards.</p>
+			<p>Below is footage from a club match in Germany. The team in blue, Hoffenheim, are trying to advance the ball upfield. 3 defenders are supported by a large group of 5 midfielders along with the 2 attacking forwards.</p>
 			<div class="embed-responsive embed-responsive-16by9">
 			<iframe embed-responsive-item src="https://www.youtube.com/embed/uY6tgCNg-cU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 			</div>
