@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         .on('drag', dragged)
         .on('end', dragended)
 
-    var div = d3.select("body").append("div")
+    var div = d3.select("#positions-board").append("div")
         .attr("class", "board-tooltip")
         .style("opacity", 0);
 
