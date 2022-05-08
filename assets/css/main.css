@@ -58,6 +58,7 @@ body {
 
 #blue-span {
 	color: #2B57AC;
+	font-weight: 700;
 }
 
 div.tooltip {
@@ -79,6 +80,7 @@ img {
   }
 
 h1,h2,h3,h4,h5 {
+	color: 159957;
 	font-weight: 700;
 }
 

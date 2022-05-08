@@ -122,8 +122,8 @@
 		<div class = "row">
 			<p>Recently, England have been strong performers in international tournaments, finishing in 3rd place in the 2018 World Cup and losing in the finals of the 2020 Euro Cup.</p>
 			<p>Let's compare the players England selected for the 2020 Euro Cup Final against Italy to the lineup that our group thinks would give them the best chance of winning!</p>
-			<p><b>Click between formations</b> to see how think they should play.</p>
-			<p>We've highlighted the positions of our 3 key players.</p>
+			<p><b>Click between formations</b> to see how we think they should play.</p>
+			<p>We've highlighted the positions of our 3 <a href="#introduction">key players.</a></p>
 		</div>
 	</div>
 	<div class="container" id = "image-container">
@@ -198,7 +198,7 @@
 	</div>
 	<div class="container" id="mount-intro">
 		<div class="row">
-			<p>Mason Mount is a young attacking midfielder who has been impressive in the club tournaments for Chelsea and made quite an impact in the Euro 2018 and World 2020. As a midfielder, he is responsible for attacking as well getting back on defense and helping his team win the ball back.</p>
+			<p>Mason Mount is a young attacking midfielder who has been impressive in the club tournaments for Chelsea and made quite an impact in the 2020 Euros. As a midfielder, he is responsible for attacking as well getting back on defense and helping his team win the ball back.</p>
 			<p>Considering this, his performance in these two international tournaments was brilliant.</p>
 			<p>Lets explore he touches the ball and where he passes the ball -- two important components of a midfielder's job description.</p>
 		</div>
@@ -234,7 +234,7 @@
 	<br>
 	<div class="container" id ="mount-summary-text">
 		<div class="row">
-			<p>This graphic visualizes the position of the ball and the direction of the pass. All of these passes have end positions in the attacking third. The cluster in the wing positions illustrate how much he likes to create plays in those positions and then eventually slide in passes in the centre.</p>
+			<p>This graphic visualizes the position of the ball and the direction of the pass. All of these passes have end positions in the attacking third. The cluster in the wing positions illustrate how much he likes to create plays in those positions and then eventually slide in passes in the center.</p>
 			<p>Going forward, England would do well to utilize his creativity by continuing to entrust him with the responsibility of creating scoring chances for strikers like Kane. Plus, as he continues to develop and gain experience, he'll also improve as a shooter and start to score goals of his own.</p>
 		</div>
 	</div>
