@@ -61,6 +61,21 @@ body {
 	font-weight: 700;
 }
 
+#defense-span {
+	color: #5FD994;
+	font-weight: 700;
+}
+
+#midfield-span {
+	color: #5FD994;
+	font-weight: 700;
+}
+
+#offense-span {
+	color: #BF9850;
+	font-weight: 700;
+}
+
 div.tooltip {
 	position: absolute;
 	text-align: center;

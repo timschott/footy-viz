@@ -83,26 +83,25 @@
 	</div>
 	<div class="container" id ="basic-board-explainer">
 		<div class="row">
-			<p>This graphic segments the field into defending, midfield, and attacking zones.</p>
+			<p>This graphic segments the field into <span id="defense-span">defending</span>, <span id ="midfield-span">midfield</span>, and <span id ="offense-span">attacking</span> zones.</p>
 		</div>
 	</div>
 	<br>
 	<br>
 	<div class="container" id ="germany-explainer">
 		<div class = "row">
-			<p>Below is footage from a club match in Germany. The team in blue, Hoffenheim, are trying to advance the ball upfield (to the left, in this perspective). 3 defenders are supported by a large group of 5 midfielders along with the 2 attacking forwards.</p>
-			<div class="embed-responsive embed-responsive-16by9">
-				<iframe embed-responsive-item src="https://www.youtube.com/embed/uY6tgCNg-cU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			</div>
+			<p>Below is from a club match in Germany. The team in blue, Hoffenheim, is trying to advance the ball upfield (to the right). 3 <span id="defense-span">defenders</span> are supported by a large group of 5 <span id="midfield-span">midfielders</span> along with the 2 <span id ="offense-span">forwards</span> (only one of which is visible from this perspective).</p>
 		</div>
 	</div>
-	<div class="container" id ="city-explainer">
-		<div class = "row">
-			<p>This is footage from a club match in England. The team in blue, Manchester City, enjoys most of the ball possession as they attempt to score (attacking to the left, from this perspective). You can see their aggressive defending style around the 40-second mark. They arrange their team differently than the first clip: 4 defenders at the back, and then a mixture of midfielders and forwards that lead their attacks on goal.</p>
-			<div class="embed-responsive embed-responsive-16by9">
-				<iframe embed-responsive-item src="https://www.youtube.com/embed/FONVyowNjUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div class="container" id = "hoffenheim-image-container">
+		<div class="row">
+			<div class="col-lg-6">
+				<img src="https://raw.githubusercontent.com/timschott/footy-viz/main/extra/hoffenheim-tactics-OG.png" class="img-fluid">
 			</div>
-		</div>
+			<div class="col-lg-6">
+				<img src="https://raw.githubusercontent.com/timschott/footy-viz/main/extra/hoffenheim-tactics-markedup.png" class="img-fluid">
+			</div>
+		</div>	
 	</div>
 	<div class="container" id="footage-explainer">
 		<div class="row">
