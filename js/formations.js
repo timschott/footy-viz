@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         .on('end', dragended)
 
     var div = d3.select("body").append("div")
-        .attr("class", "tooltip")
+        .attr("class", "board-tooltip")
         .style("opacity", 0);
 
     // initial setup
@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 
                 // player name
                 div.html(d.name)
-                    .style("font-size", "20px ")
+                    .style("font-size", "20px")
                     .style("left", (d3.event.pageX + 10) + "px")
                     .style("top", (d3.event.pageY - 15) + "px");
            })
@@ -244,7 +244,6 @@ function new_lineup(){
             .attr("cy", function(d) { return d.y; })
             .attr("name", function(d) {return d.name})
             .style("fill", function(d) {
-                console.log(d.name);
                 if (d.name == "Kane" || d.name == "Mount" || d.name == "Alexander-Arnold") {
                     return "#2B57AC"
                 } else {
