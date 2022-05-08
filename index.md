@@ -86,8 +86,6 @@
 			<p>This graphic segments the field into <span id="defense-span">defending</span>, <span id ="midfield-span">midfield</span>, and <span id ="offense-span">attacking</span> zones.</p>
 		</div>
 	</div>
-	<br>
-	<br>
 	<div class="container" id ="germany-explainer">
 		<div class = "row">
 			<p>Below is from a club match in Germany. The team in blue, Hoffenheim, is trying to advance the ball upfield (to the right). 3 <span id="defense-span">defenders</span> are supported by a large group of 5 <span id="midfield-span">midfielders</span> along with the 2 <span id ="offense-span">forwards</span> (only one of which is visible from this perspective).</p>
