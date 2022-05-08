@@ -50,7 +50,7 @@
 	</div>
 	<div class="container" id = "title-frame-for-primer">
 		<div class = "row">
-			<h3>Contextual Primer</h3>
+			<h3>Primer</h3>
 		</div>
 		<div class = "row">
 			<h5>How are soccer teams structured?</h5>
@@ -71,20 +71,21 @@
 	</div>
 	<div class="container" id = "primer">
 		<div class = "row">
-			<h3>Match Footage</h3>
+			<h3>Structure and Formation</h3>
 		</div>
 		<div class = "row">
 			<h5>What does a game of soccer look like?</h5>
 		</div>
 		<br>
 	</div>
-	<div class="d-flex justify-content-center" id="basic-soccer-setup">
-		<img src="extra/soccer_basic.png" alt="basic soccer setup" class="img-fluid">
-	</div>
 	<div class="container" id ="basic-board-explainer">
 		<div class="row">
-			<p>This graphic segments the field into <span id="defense-span">defending</span>, <span id ="midfield-span">midfield</span>, and <span id ="offense-span">attacking</span> zones.</p>
+			<p>This graphic segments the field into <span id="defense-span">defending</span>, <span id ="midfield-span">midfield</span>, and <span id ="offense-span">attacking</span> players. It should be noted that this only represents what a single team looks like.</p>
+			<p>To put these groups into clearer context, we'll take a look at screenshots from game footage alongside a highlighted version that points out each of the positions.</p>
 		</div>
+	</div>
+	<div class="d-flex justify-content-center" id="basic-soccer-setup">
+		<img src="extra/soccer_basic.png" alt="basic soccer setup" class="img-fluid">
 	</div>
 	<div class="container" id ="germany-explainer">
 		<div class = "row">
@@ -98,6 +99,21 @@
 			</div>
 			<div class="col-lg-6">
 				<img src="https://raw.githubusercontent.com/timschott/footy-viz/main/extra/hoffenheim-tactics-markedup.png" class="img-fluid">
+			</div>
+		</div>	
+	</div>
+	<div class="container" id ="city-explainer">
+		<div class = "row">
+			<p>Below is from a club match in England. The team in blue, Manchester City, is trying to advance the ball upfield (to the right). 4 <span id="defense-span">defenders</span> are supported by group of 4 <span id="midfield-span">midfielders</span> along with the 2 <span id ="offense-span">forwards</span>. This zoomed out perspective makes it easy to see how the positions of players can lead to different styles of gameplay.</p>
+		</div>
+	</div>
+	<div class="container" id = "city-image-container">
+		<div class="row">
+			<div class="col-lg-6">
+				<img src="https://raw.githubusercontent.com/timschott/footy-viz/main/extra/city-tactics-OG.png" class="img-fluid">
+			</div>
+			<div class="col-lg-6">
+				<img src="https://raw.githubusercontent.com/timschott/footy-viz/main/extra/city-tactics-markedup.png" class="img-fluid">
 			</div>
 		</div>	
 	</div>
@@ -117,10 +133,10 @@
 	</div>
 	<div class="container" id = "frame-the-d3-container">
 		<div class = "row">
-			<p>Recently, England have been strong performers in international tournaments, finishing in 3rd place in the 2018 World Cup and losing in the finals of the 2020 Euro Cup.</p>
+			<p>Recently, England have excelled in international tournaments, finishing in 3rd place in the 2018 World Cup and losing in the finals of the 2020 Euro Cup.</p>
+			<p>But what will it take to push them to become champions?</p>
 			<p>Let's compare the players England selected for the 2020 Euro Cup Final against Italy to the lineup that our group thinks would give them the best chance of winning!</p>
-			<p><b>Click between formations</b> to see how we think they should play.</p>
-			<p>We've highlighted the positions of our 3 <a href="#introduction">key players.</a></p>
+			<p><b>Click between formations</b> to see how we think England should play. Along the way, pay attention to the roles of our 3 key players (Kane, Mount and Alexander-Arnold) which have been highlighted</p>
 		</div>
 	</div>
 	<div class="container" id = "image-container">
@@ -147,7 +163,7 @@
 	<br>
 	<div class="container" id="tactics-outtro">
 		<div class = "row">
-			<p>Now that we've established the structure of soccer teams in general and recommended a starting lineup for England, let's have a look at our key players and why we believe their presence is a critical factor for England's success.</p>
+			<p>Now that we've established the structure of soccer teams in general and recommended a starting lineup for England, let's detail our key players and why we believe their presence is a critical factor for England's success.</p>
 		</div>
 	</div>
 	<br>
@@ -190,7 +206,7 @@
 			<h3>Mason Mount (Midfielder)</h3>
 		</div>
 		<div class = "row">
-			<h5>What does Mason Mount bring to the table?</h5>
+			<h5>What are Mount's best attributes?</h5>
 		</div>
 	</div>
 	<div class="container" id="mount-intro">
@@ -252,28 +268,32 @@
 	<div class="d-flex justify-content-center" id="joint-radar">
 		<img src="extra/together_base_final.png" alt="together radar image" class="img-fluid">
 	</div>
-	<div class="row">
-		<p>Let us now contrast these shapes to how Trent compares to other talented defenders currently in England's International team such as Kyle Walker.</p>
+	<div class="container" id ="trent-v-walker-intro">
+		<div class="row">
+			<p>Let us now contrast these shapes to how Trent compares to other talented defenders currently in England's International team such as Kyle Walker.</p>
+		</div>
 	</div>
 	<div class="d-flex justify-content-center" id="trent-radar-image">
 		<img src="extra/trent_radar.png" alt="Trent Passing image" class="img-fluid">
 	</div>
-	<div class="row">
-		<p> By imposing Trent and Kyle's play style against the ideal attacking and defensive charts above, you can see how Trent is more suited towards an attacking play style while Kyle who is more defensive.</p>
-	</div>
-	<div class="row">
-		<p> This data lays a strong argument that Trent's attacking play style will link very well with Mount and Kane to make England an aggressive goal scoring machine. We argue that such a combination can become a World Cup winning strategy given how well all three players are currently performing.</p>
+	<div class="container" id ="trent-v-walker-followup">
+		<div class="row">
+			<p>By imposing Trent and Kyle's play style against the ideal attacking and defensive charts above, you can see how Trent is more suited towards an attacking play style while Kyle who is more defensive.</p>
+			<p>This data lays a strong argument that Trent's attacking play style will link very well with Mount and Kane to make England an aggressive goal scoring machine. We argue that such a combination can become a World Cup winning strategy given how well all three players are currently performing.</p>
+		</div>
 	</div>
 	<div class="container" id = "title-frame-for-summary">
 		<div class = "row">
 			<h3>Summary</h3>
 		</div>
 	</div>
-	<div class="row">
-		<p>These three players playing key roles in attack, midfield and defence can make the difference for England to bring the cup home this year. If you would like to learn more about the data we have used, please refer to <a href="https://statsbomb.com/what-we-do/soccer-data/">StatsbombR</a> and <a href ="https://fbref.com/en/">fbref.com</a> which offer excellent interfaces and APIs for working with soccer data.</p>
+	<div class="container" id ="summary-content">
+		<div class="row">
+			<p>These three players playing key roles in attack, midfield and defence can make the difference for England to bring the cup home this year. If you would like to learn more about the data we have used, please refer to <a href="https://statsbomb.com/what-we-do/soccer-data/">StatsbombR</a> and <a href ="https://fbref.com/en/">fbref.com</a> which offer excellent interfaces and APIs for working with soccer data.</p>
+		</div>
 	</div>
+</body>
 <footer class="site-footer">
 	<span class="site-footer-owner"><a href="https://github.com/timschott/footy-viz">footy-viz</a> is maintained by <a href="https://github.com/timschott">timschott</a>.</span>
 	<span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
 </footer>
-</body>
