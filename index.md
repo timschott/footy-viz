@@ -1,27 +1,29 @@
 <script src="js/goal_graph.js"></script>
 <script src="js/formations.js"></script>
 <title>Footy Viz</title>
-<header class="page-header" role="banner">
-	<div class="intro-to-page">
-		<h1 class="project-tagline">England's Soccer Superstars</h1>
-		<h2 class="project-tagline">Advait Lad, Akshar Dhondiyal, Tim Schott &nbsp; Info Viz Spring 2022 UC Berkeley</h2>
-		<a href="https://github.com/timschott/footy-viz" class="btn">View on GitHub</a>
-	</div>
-	<div class="nav-links">
-		<ul class="nav-menu" id="nav-menu">
-			<li>&nbsp;&nbsp;</li>
-			<li><a href="#introduction" id="intro-nav">Introduction</a></li>
-			<li>&nbsp;|&nbsp;</li>
-			<li><a href="#tactics" id ="tactics-nav">Tactics</a></li>
-			<li>&nbsp;|&nbsp;</li>
-			<li><a href="#harry-kane-striker-attacker" id ="kane-nav">Harry Kane</a></li>
-			<li>&nbsp;|&nbsp;</li>
-			<li><a href="#mason-mount-midfielder" id ="mount-nav">Mason Mount</a></li>
-			<li>&nbsp;|&nbsp;</li>
-			<li><a href="#trent-alexander-arnold-defender" id ="trent-nav">Trent Alexander-Arnold</a></li>
-		</ul>
-	</div>
-</header>
+<nav class="navbar navbar-default">
+	<header class="page-header" role="banner">
+		<div class="intro-to-page">
+			<h1 class="project-tagline">England's Soccer Superstars</h1>
+			<h2 class="project-tagline">Advait Lad, Akshar Dhondiyal, Tim Schott &nbsp; Info Viz Spring 2022 UC Berkeley</h2>
+			<a href="https://github.com/timschott/footy-viz" class="btn">View on GitHub</a>
+		</div>
+		<div class="nav-links">
+			<ul class="nav-menu" id="nav-menu">
+				<li>&nbsp;&nbsp;</li>
+				<li><a href="#introduction" id="intro-nav">Introduction</a></li>
+				<li>&nbsp;|&nbsp;</li>
+				<li><a href="#tactics" id ="tactics-nav">Tactics</a></li>
+				<li>&nbsp;|&nbsp;</li>
+				<li><a href="#harry-kane-striker-attacker" id ="kane-nav">Harry Kane</a></li>
+				<li>&nbsp;|&nbsp;</li>
+				<li><a href="#mason-mount-midfielder" id ="mount-nav">Mason Mount</a></li>
+				<li>&nbsp;|&nbsp;</li>
+				<li><a href="#trent-alexander-arnold-defender" id ="trent-nav">Trent Alexander-Arnold</a></li>
+			</ul>
+		</div>
+	</header>
+</nav>
 <body>
 	<div class="container" id = "title-container">
 		<div class="row">
