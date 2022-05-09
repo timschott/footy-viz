@@ -173,7 +173,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
                  if (d.name == "Kane" || d.name == "Mount") {
                      return "#EA1F29"
                  } else {
-                     return "#14283C";
+                     return "#878787";
                  }
             })
 
