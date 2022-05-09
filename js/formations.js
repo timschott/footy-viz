@@ -182,8 +182,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 d3.select(this).transition()
                      .duration('100')
                      .attr("r", 18);
-
-                console.log(div.innerHTML);
                 
                 // tooltip
                 tooltip.transition()
@@ -195,6 +193,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
                     .style("font-size", "20px")
                     .style("left", (d3.event.pageX + 10) + "px")
                     .style("top", (d3.event.pageY - 15) + "px");
+
+                console.log(tooltip);
            })
            .on('mouseout', function (d, i) {
                 // decrease size
