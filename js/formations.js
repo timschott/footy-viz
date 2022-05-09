@@ -142,7 +142,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
         .attr("fill", "#ffffff")
         .attr("transform", "translate(880,250)");
 
-    var color = d3.scaleOrdinal().range(["#14293c", "pink"]);
     var color1 = d3.scaleOrdinal().range(["#14293c", "red"]);
 
     var drag = d3
@@ -183,6 +182,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 d3.select(this).transition()
                      .duration('100')
                      .attr("r", 18);
+
+                console.log(div.innerHTML);
                 
                 // tooltip
                 div.transition()
@@ -254,5 +255,5 @@ function new_lineup(){
 
     document.getElementById('tactics-title').innerHTML = '4-2-3-1';
     document.getElementById('tactics-title').style.color = '#2B57AC';
-    document.getElementById('tactics-explainer').innerHTML = "This formation would allow England to attack aggressively and maintain a higher average field position. It would also play to the strengths of our key players, highlighted in <span id ='blue-span'>blue</span>. <span id ='blue-span'>Trent Alexander-Arnold</span>, whose absence in the Euro 2020 Final was sorely missed, can unlock oppositions with incredible passes. Allowing him to occupy the right channel plays to his strengths. Meanwhile, <span id='blue-span'>Mason Mount</span> shifts to a directly central role in the midfield behind <span id = 'blue-span'>Harry Kane</span>. This provides him with more chances to shoot and also an easy way to interchange alongside Kane and the rest of the midfield.";
+    document.getElementById('tactics-explainer').innerHTML = "This formation would allow England to attack aggressively and maintain a higher average field position. It would also play to the strengths of our key players (highlighted in <span id ='blue-span'>blue</span>). <span id ='blue-span'>Trent Alexander-Arnold</span>, whose absence in the Euro 2020 Final was sorely missed, can unlock oppositions with incredible passes. Allowing him to occupy the right channel plays to his strengths. Meanwhile, <span id='blue-span'>Mason Mount</span> shifts to a directly central role in the midfield behind <span id = 'blue-span'>Harry Kane</span>. This provides him with more chances to shoot and also an easy way to interchange alongside Kane and the rest of the midfield.";
 }
