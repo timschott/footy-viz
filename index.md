@@ -1,27 +1,29 @@
 <script src="js/goal_graph.js"></script>
 <script src="js/formations.js"></script>
 <title>Footy Viz</title>
-<header class="page-header" role="banner">
-	<div class="intro-to-page">
-		<h1 class="project-tagline">England's Soccer Superstars</h1>
-		<h2 class="project-tagline">Advait Lad, Akshar Dhondiyal, Tim Schott &nbsp; Info Viz Spring 2022 UC Berkeley</h2>
-		<a href="https://github.com/timschott/footy-viz" class="btn">View on GitHub</a>
-	</div>
-	<div class="nav-links">
-		<ul class="nav-menu" id="nav-menu">
-			<li>&nbsp;&nbsp;</li>
-			<li><a href="#introduction" id="intro-nav">Introduction</a></li>
-			<li>&nbsp;|&nbsp;</li>
-			<li><a href="#tactics" id ="tactics-nav">Tactics</a></li>
-			<li>&nbsp;|&nbsp;</li>
-			<li><a href="#harry-kane-striker-attacker" id ="kane-nav">Harry Kane</a></li>
-			<li>&nbsp;|&nbsp;</li>
-			<li><a href="#mason-mount-midfielder" id ="mount-nav">Mason Mount</a></li>
-			<li>&nbsp;|&nbsp;</li>
-			<li><a href="#trent-alexander-arnold-defender" id ="trent-nav">Trent Alexander-Arnold</a></li>
-		</ul>
-	</div>
-</header>
+<div id = "primary-nav" class="navbar-nav nav-fill w-100">
+	<header class="page-header" role="banner">
+		<div class="intro-to-page">
+			<h1 class="project-tagline">England's Soccer Superstars</h1>
+			<h2 class="project-tagline">Advait Lad, Akshar Dhondiyal, Tim Schott &nbsp; Info Viz Spring 2022 UC Berkeley</h2>
+			<a href="https://github.com/timschott/footy-viz" class="btn">View on GitHub</a>
+		</div>
+		<div class="nav-links">
+			<ul class="nav-menu" id="nav-menu">
+				<li>&nbsp;&nbsp;</li>
+				<li><a href="#introduction" id="intro-nav">Introduction</a></li>
+				<li>&nbsp;|&nbsp;</li>
+				<li><a href="#tactics" id ="tactics-nav">Tactics</a></li>
+				<li>&nbsp;|&nbsp;</li>
+				<li><a href="#harry-kane-striker-attacker" id ="kane-nav">Harry Kane</a></li>
+				<li>&nbsp;|&nbsp;</li>
+				<li><a href="#mason-mount-midfielder" id ="mount-nav">Mason Mount</a></li>
+				<li>&nbsp;|&nbsp;</li>
+				<li><a href="#trent-alexander-arnold-defender" id ="trent-nav">Trent Alexander-Arnold</a></li>
+			</ul>
+		</div>
+	</header>
+</div>
 <body>
 	<div class="container" id = "title-container">
 		<div class="row">
@@ -38,13 +40,13 @@
 	<div class="container" id = "card-container">
 		<div class = "row form-group">
 			<div class="col-lg-4" id ="kane-card">
-				<img srcset="extra/kane_playing_card.png 876w, extra/kane_playing_card_mobile.png 200w" src="extra/kane_playing_card.png" alt="Harry Kane playing card" class = "img-fluid">
+				<img srcset="extra/kane_playing_card.png 876w, extra/kane_playing_card_mobile.png 100w" src="extra/kane_playing_card.png" alt="Harry Kane playing card" class = "img-fluid">
 			</div>
 			<div class="col-lg-4" id ="mount-card">
-				<img src="extra/mount_playing_card.png" alt="Mason Mount playing card" class="img-fluid">
+				<img srcset="extra/mount_playing_card.png 876w, extra/mount_playing_card_mobile.png 100w" src="extra/mount_playing_card.png" alt="Mount playing card" class = "img-fluid">
 			</div>
 			<div class="col-lg-4" id ="trent-card">
-				<img src="extra/trent_playing_card.png" alt="Trent Alexander-Arnold playing card" class="img-fluid">
+				<img srcset="extra/trent_playing_card.png 876w, extra/trent_playing_card_mobile.png 100w" src="extra/trent_playing_card.png" alt="Trent playing card" class = "img-fluid">
 			</div>
 		</div>
 	</div>
