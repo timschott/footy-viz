@@ -186,13 +186,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 // tooltip
                 tooltip.transition()
                     .duration(100)
+                    .style("opacity", .7)
                     .style("visibility", "visible");
                 
                 // player name
                 tooltip.text(d.name)
                     .style("font-size", "20px")
-                    .style("left", d3.select(this).attr("cx") + "px")     
-                    .style("top", d3.select(this).attr("cy") + "px");
+                    .style("left", (parseInt(d3.select(this).attr("cx")) + document.getElementById("positions-board").offsetLeft + 15) + "px")     
+                    .style("top", (parseInt(d3.select(this).attr("cy")) + document.getElementById("positions-board").offsetTop + 15) + "px");
 
            })
            .on('mouseout', function (d, i) {
@@ -204,6 +205,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 //makes tooltip disappear
                 tooltip.transition()
                     .duration('200')
+                    .style("opacity", 0)
                     .style("visibility", "hidden");
            })
             .call(drag)
