@@ -221,7 +221,7 @@
 		</div>
 	</div>
 	<div class="d-flex justify-content-center" id="mount-pass-area">
-		<img src="extra/mount-passes.png" alt="Mount Passes image" class="img-fluid">
+		<img src="extra/MOUNT'S_COMPLETED_PASSES.png" alt="Mount Passes image" class="img-fluid">
 	</div>
 	<br>
 	<div class="container" id ="mount-summary-text">
