@@ -186,7 +186,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 // tooltip
                 tooltip.transition()
                     .duration(100)
-                    .style("opacity", "visible");
+                    .style("visibility", "visible");
                 
                 // player name
                 tooltip.text(d.name)
