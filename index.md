@@ -115,7 +115,7 @@
 			<p>Recently, England have excelled in international tournaments, finishing in 3rd place in the 2018 World Cup and losing in the finals of the 2020 Euro Cup.</p>
 			<p>But what will it take to push them to become champions?</p>
 			<p>Let's compare the players England selected for the 2020 Euro Cup Final against Italy to the lineup that our group thinks would give them the best chance of winning!</p>
-			<p><b>Click between formations</b> to see how we think England should play. Along the way, pay attention to the roles of our 3 key players (Kane, Mount and Alexander-Arnold) which have been highlighted</p>
+			<p><b>Click between formations</b> to see how we think England should play. Along the way, pay attention to the roles of our 3 key players (Kane, Mount and Alexander-Arnold) which have been highlighted.</p>
 		</div>
 	</div>
 	<div class="container" id = "image-container">
