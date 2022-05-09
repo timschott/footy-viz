@@ -152,7 +152,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
     var tooltip = d3.select("#positions-board").append("div")
         .attr("class", "tooltip")
-        .style("opacity", 0);
+        .style("visibility", "hidden");
 
     // initial setup
     function default_setup () {
@@ -186,15 +186,14 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 // tooltip
                 tooltip.transition()
                     .duration(100)
-                    .style("opacity", 1);
+                    .style("opacity", "visible");
                 
                 // player name
-                tooltip.html(d.name)
+                tooltip.text(d.name)
                     .style("font-size", "20px")
-                    .style("left", (d3.event.pageX + 10) + "px")
-                    .style("top", (d3.event.pageY - 15) + "px");
+                    .style("left", d3.select(this).attr("cx") + "px")     
+                    .style("top", d3.select(this).attr("cy") + "px");
 
-                console.log(tooltip);
            })
            .on('mouseout', function (d, i) {
                 // decrease size
@@ -205,7 +204,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
                 //makes tooltip disappear
                 tooltip.transition()
                     .duration('200')
-                    .style("opacity", 0);
+                    .style("visibility", "hidden");
            })
             .call(drag)
             });
