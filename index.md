@@ -35,16 +35,10 @@
 			<p>In international soccer, teams don't have very much time to practice together, so the abilities of individuals often ends up deciding games. For this reason, we want to explore the statistics and performances of 3 key players. Their performance in the World Cup, we believe, hinges on the performances of these players.</p>
 		</div>
 	</div>
-	<img 
-    srcset="logo_desktop.jpg  768w,
-            logo_smallphone.jpg 310w"
-    sizes="50vw, 100vw"
-    src="logo_desktop.jpg"
-    alt="My site's logo file" />
 	<div class="container" id = "card-container">
 		<div class = "row form-group">
 			<div class="col-lg-4" id ="kane-card">
-				<img srcset="extra/kane_playing_card.png 768w, extra/kane_playing_card_mobile.png 310w", sizes = "50vw, 100vw" src="extra/kane_playing_card.png" alt="Harry Kane playing card" class = "img-fluid">
+				<img srcset="extra/kane_playing_card.png 876w, extra/kane_playing_card_mobile.png 200w" src="extra/kane_playing_card.png" alt="Harry Kane playing card" class = "img-fluid">
 			</div>
 			<div class="col-lg-4" id ="mount-card">
 				<img src="extra/mount_playing_card.png" alt="Mason Mount playing card" class="img-fluid">
