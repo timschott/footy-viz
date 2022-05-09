@@ -76,7 +76,7 @@ body {
 	font-weight: 700;
 }
 
-div.tooltip {
+div.dtooltip {
 	position: absolute;
 	text-align: center;
 	padding: .2rem;

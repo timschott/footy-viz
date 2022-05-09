@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         .on('end', dragended)
 
     var tooltip = d3.select("#positions-board").append("div")
-        .attr("class", "tooltip")
+        .attr("class", "dtooltip")
         .style("visibility", "hidden");
 
     // initial setup
