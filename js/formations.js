@@ -150,8 +150,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         .on('drag', dragged)
         .on('end', dragended)
 
-    var tooltipDiv = holder.append("div")
-        .attr("class", "board-tooltip")
+    var tooltip = d3.select("#positions-board").append("div")
+        .attr("class", "tooltip")
         .style("opacity", 0);
 
     // initial setup
@@ -183,15 +183,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
                      .duration('100')
                      .attr("r", 18);
 
-                console.log(tooltipDiv.innerHTML);
+                console.log(div.innerHTML);
                 
                 // tooltip
-                tooltipDiv.transition()
+                tooltip.transition()
                     .duration(100)
                     .style("opacity", 1);
                 
                 // player name
-                tooltipDiv.html(d.name)
+                tooltip.html(d.name)
                     .style("font-size", "20px")
                     .style("left", (d3.event.pageX + 10) + "px")
                     .style("top", (d3.event.pageY - 15) + "px");
@@ -203,7 +203,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
                      .attr("r", 14);
 
                 //makes tooltip disappear
-                tooltipDiv.transition()
+                tooltip.transition()
                     .duration('200')
                     .style("opacity", 0);
            })
