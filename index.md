@@ -59,7 +59,7 @@
 	</div>
 	<div class="container" id ="basic-board-explainer">
 		<div class="row">
-			<p>This graphic segments the field into <span id="defense-span">defending</span>, <span id ="midfield-span">midfield</span>, and <span id ="offense-span">attacking</span> players. It should be noted that this only represents what a single team looks like.</p>
+			<p>This graphic segments the field into <span id="defense-span">defenders</span>, <span id ="midfield-span">midfielders</span>, and <span id ="offense-span">forwards</span>. It should be noted that this only represents what a single team of 11 players looks like -- we haven't included an opposition.</p>
 			<p>To put these groups into clearer context, we'll take a look at screenshots from game footage alongside a highlighted version that points out each of the positions.</p>
 		</div>
 	</div>
@@ -149,10 +149,10 @@
 	<br>
 	<div class="container" id = "title-frame-for-kane">
 		<div class = "row">
-			<h3>Harry Kane (Striker/Attacker)</h3>
+			<h3><span id ="offense-span">Harry Kane (Forward)</span></h3>
 		</div>
 		<div class = "row">
-			<h5>Just how good is England's star striker?</h5>
+			<h5><span id ="offense-span">Just how good is England's star striker?</span</h5>
 		</div>
 	</div>
 	<div class="container" id="frame-for-kane">
@@ -182,10 +182,10 @@
 	<br>
 	<div class="container" id = "title-frame-for-mount">
 		<div class = "row">
-			<h3>Mason Mount (Midfielder)</h3>
+			<h3><span id ="midfield-span">Mason Mount (Midfielder)</span></h3>
 		</div>
 		<div class = "row">
-			<h5>What are Mount's best attributes?</h5>
+			<h5><span id ="midfield-span">What are Mount's best attributes?</span></h5>
 		</div>
 	</div>
 	<div class="container" id="mount-intro">
@@ -232,15 +232,15 @@
 	</div>
 	<div class="container" id = "title-frame-for-trent">
 		<div class = "row">
-			<h3>Trent Alexander-Arnold (Defender)</h3>
+			<h3><span id ="defense-span">Trent Alexander-Arnold (Defender)</span></h3>
 		</div>
 		<div class = "row">
-			<h5>What are Trent's strengths?</h5>
+			<h5><span id ="defense-span">What are Trent's strengths?</span></h5>
 		</div>
 	</div>
 	<div class="container" id="trent-intro">
 		<div class="row">
-			<p>Trent is an up and coming defender who has consistently been performing very well in the local leagues but hasn't played a lot in England's international games. We feel his presence would make a big difference in helping Mount and Kane win games.</p>
+			<p>Trent is an up-and-coming defender who has consistently been performing very well in the local leagues but hasn't played a lot in England's international games. We feel his presence would make a big difference in helping Mount and Kane win games.</p>
 			<p>Let us look at some ideal attacking and defensive radar charts so we can get a good baseline understanding of different play styles and the abilities Trent offers.</p>
 		</div>
 	</div>

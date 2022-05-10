@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     .attr("y", function(d) { return y(0); })
     .style("fill", function(d) {
         if (d.Player == "Harry Kane") {
-            return "#56B4E9";
+            return "#F2ABAE";
         } else {
             return "#999999";
         }
