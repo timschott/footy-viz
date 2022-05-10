@@ -27,6 +27,9 @@
 			</div>
 		</div>
 	</div>
+	<br>
+	<br>
+	<hr/>
 	<div class="container" id = "title-frame-for-primer">
 		<div class = "row">
 			<h3>Primer</h3>
@@ -48,6 +51,9 @@
 			<p>To get a better sense of what a soccer team looks lke in action, we're going to introduce a standard "tactics" boards and few videos from matches.</p>
 		</div>
 	</div>
+	<br>
+	<br>
+	<hr/>
 	<div class="container" id = "primer">
 		<div class = "row">
 			<h3>Structure and Formation</h3>
@@ -81,11 +87,13 @@
 			</div>
 		</div>	
 	</div>
+	<br>
 	<div class="container" id ="city-explainer">
 		<div class = "row">
 			<p>Below is from a club match in England. The team in blue, Manchester City, is trying to advance the ball upfield (to the right). 4 <span id="defense-span">defenders</span> are supported by group of 4 <span id="midfield-span">midfielders</span> along with the 2 <span id ="offense-span">forwards</span>. This zoomed out perspective makes it easy to see how the positions of players can lead to different styles of gameplay.</p>
 		</div>
 	</div>
+	<br>
 	<div class="container" id = "city-image-container">
 		<div class="row">
 			<div class="col-lg-6">
@@ -96,12 +104,16 @@
 			</div>
 		</div>	
 	</div>
+	<br>
 	<div class="container" id="footage-explainer">
 		<div class="row">
 			<p>It's common to classify the way that teams arrange their players into a <i>lineup</i>. These clips show different strategies, with Manchester City adopting something like a "4-5-1" and Hoffenheim adopting a "3-5-2." To interpret these labels, you read from left to right with the left most number representing the number of defenders. For instance, Manchester City used <b>4</b> defenders, <b>5</b> midfielders, and <b>1</b> forward.</p> 
 			<p>The choice of lineup is quite important because it implicates which players will be selected; you cannot have a team with 11 defenders running around. For national teams like England, the problem is magnified because every player is phenomenal. So, before exploring the strengths of our key players, we want to consider the best lineup choice for England.</p>
 		</div>
 	</div>
+	<hr/>
+	<br>
+	<br>
 	<div class="container" id = "title-frame-for-d3">
 		<div class = "row">
 			<h3>Tactics</h3>
@@ -145,6 +157,7 @@
 			<p>Now that we've established the structure of soccer teams in general and recommended a starting lineup for England, let's detail our key players and why we believe their presence is a critical factor for England's success.</p>
 		</div>
 	</div>
+	<hr/>
 	<br>
 	<br>
 	<div class="container" id = "title-frame-for-kane">
@@ -152,7 +165,7 @@
 			<h3><span id ="offense-span">Harry Kane (Forward)</span></h3>
 		</div>
 		<div class = "row">
-			<h5><span id ="offense-span">Just how good is England's star striker?</span></h5>
+			<h5>Just how good is England's star striker?</h5>
 		</div>
 	</div>
 	<div class="container" id="frame-for-kane">
@@ -178,6 +191,7 @@
 	<div class="d-flex justify-content-center" id="shot-graph-area">
 		<img src="extra/shots-graph-2.png" alt="Harry Kane shot graph" class="img-fluid">
 	</div>
+	<hr/>
 	<br>
 	<br>
 	<div class="container" id = "title-frame-for-mount">
@@ -185,7 +199,7 @@
 			<h3><span id ="midfield-span">Mason Mount (Midfielder)</span></h3>
 		</div>
 		<div class = "row">
-			<h5><span id ="midfield-span">What are Mount's best attributes?</span></h5>
+			<h5>What are Mount's best attributes?</h5>
 		</div>
 	</div>
 	<div class="container" id="mount-intro">
@@ -230,12 +244,15 @@
 			<p>Going forward, England would do well to utilize his creativity by continuing to entrust him with the responsibility of creating scoring chances for strikers like Kane. Plus, as he continues to develop and gain experience, he'll also improve as a shooter and start to score goals of his own.</p>
 		</div>
 	</div>
+	<hr/>
+	<br>
+	<br>
 	<div class="container" id = "title-frame-for-trent">
 		<div class = "row">
 			<h3><span id ="defense-span">Trent Alexander-Arnold (Defender)</span></h3>
 		</div>
 		<div class = "row">
-			<h5><span id ="defense-span">What are Trent's strengths?</span></h5>
+			<h5>What are Trent's strengths?</h5>
 		</div>
 	</div>
 	<div class="container" id="trent-intro">
