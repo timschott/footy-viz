@@ -152,7 +152,7 @@
 			<h3><span id ="offense-span">Harry Kane (Forward)</span></h3>
 		</div>
 		<div class = "row">
-			<h5><span id ="offense-span">Just how good is England's star striker?</span</h5>
+			<h5><span id ="offense-span">Just how good is England's star striker?</span></h5>
 		</div>
 	</div>
 	<div class="container" id="frame-for-kane">
