@@ -69,9 +69,16 @@
 			<p>To put these groups into clearer context, we'll take a look at screenshots from game footage alongside a highlighted version that points out each of the positions.</p>
 		</div>
 	</div>
+	<br>
 	<div class="d-flex justify-content-center" id="basic-soccer-setup">
 		<img src="extra/soccer_basic.png" alt="basic soccer setup" class="img-fluid">
 	</div>
+	<br>
+	<br>
+	<div class="d-flex justify-content-center" id="basic-soccer-setup">
+		<img src="extra/attack-mid-defence-map.png" alt="basic soccer setup" class="img-fluid">
+	</div>
+	<br>
 	<div class="container" id ="germany-explainer">
 		<div class = "row">
 			<p>Below is from a club match in Germany. The team in blue, Hoffenheim, is trying to advance the ball upfield (to the right). 3 <span id="defense-span">defenders</span> are supported by a large group of 5 <span id="midfield-span">midfielders</span> along with the 2 <span id ="offense-span">forwards</span> (only one of which is visible from this perspective).</p>
