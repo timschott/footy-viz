@@ -71,11 +71,6 @@
 	</div>
 	<br>
 	<div class="d-flex justify-content-center" id="basic-soccer-setup">
-		<img src="extra/soccer_basic.png" alt="basic soccer setup" class="img-fluid">
-	</div>
-	<br>
-	<br>
-	<div class="d-flex justify-content-center" id="basic-soccer-setup">
 		<img src="extra/attack-mid-defence-map.png" alt="basic soccer setup" class="img-fluid">
 	</div>
 	<br>
@@ -84,6 +79,7 @@
 			<p>Below is from a club match in Germany. The team in blue, Hoffenheim, is trying to advance the ball upfield (to the right). 3 <span id="defense-span">defenders</span> are supported by a large group of 5 <span id="midfield-span">midfielders</span> along with the 2 <span id ="offense-span">forwards</span> (only one of which is visible from this perspective).</p>
 		</div>
 	</div>
+	<br>
 	<div class="container" id = "hoffenheim-image-container">
 		<div class="row">
 			<div class="col-lg-6">
@@ -276,24 +272,14 @@
 		<img src="extra/radar_comparison.png" alt="together radar image" class="img-fluid">
 	</div>
 	<br>
-	<br>
-	<div class="d-flex justify-content-center" id="joint-radar">
-		<img src="extra/together_base_final.png" alt="together radar image" class="img-fluid">
-	</div>
-	<br>
 	<div class="container" id ="trent-v-walker-intro">
 		<div class="row">
-			<p>Let us now contrast these shapes to how Trent compares to other talented defenders currently in England's International team such as Kyle Walker.</p>
+			<p>Let us now contrast these shapes to how Trent compares to other talented defenders currently in England's International team such as Kyle Walker. This comparison reveals how different players playing in the same position can have completely different playstyles.</p>
 		</div>
 	</div>
 	<br>
 	<div class="d-flex justify-content-center" id="trent-radar-image">
 		<img src="extra/radar_graph_cornflowerblue.png" alt="Trent Passing image" class="img-fluid">
-	</div>
-	<br>
-	<br>
-	<div class="d-flex justify-content-center" id="trent-radar-image">
-		<img src="extra/trent_radar.png" alt="Trent Passing image" class="img-fluid">
 	</div>
 	<br>
 	<div class="container" id ="trent-v-walker-followup">
