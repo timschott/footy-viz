@@ -284,7 +284,7 @@
 	<br>
 	<div class="container" id ="trent-v-walker-followup">
 		<div class="row">
-			<p>By imposing Trent and Kyle's play style against the ideal attacking and defensive charts above, you can see how Trent is more suited towards an attacking play style while Kyle who is more defensive.</p>
+			<p>By imposing Trent and Kyle's play style against the ideal attacking and defensive charts above, you can see how Trent is more suited towards an attacking play style while Kyle who is more defensive. In fact this is why we consider Trent to be a chameleon, a defender who acts as an additional attacker when the team needs to score. This could be crucial during make or break stages of the world cup. </p>
 			<p>This data lays a strong argument that <b>Trent's</b> attacking play style will link very well with <b>Mount</b> and <b>Kane</b> to make England an aggressive goal scoring machine. We argue that such a combination can become a World Cup winning strategy given how well all three players are currently performing.</p>
 		</div>
 	</div>
