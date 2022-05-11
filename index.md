@@ -35,7 +35,7 @@
 			<h3>Primer</h3>
 		</div>
 		<div class = "row">
-			<h5>How are soccer teams structured?</h5>
+			<h4>How are soccer teams structured?</h4>
 		</div>
 	</div>
 	<div class="container" id = "frame-the-primer">
@@ -59,7 +59,7 @@
 			<h3>Structure and Formation</h3>
 		</div>
 		<div class = "row">
-			<h5>What does a game of soccer look like?</h5>
+			<h4>What does a game of soccer look like?</h4>
 		</div>
 		<br>
 	</div>
