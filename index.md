@@ -119,7 +119,7 @@
 			<h3>Tactics</h3>
 		</div>
 		<div class = "row">
-			<h5>What's England's best strategy?</h5>
+			<h4>What's England's best strategy?</h4>
 		</div>
 	</div>
 	<div class="container" id = "frame-the-d3-container">
@@ -133,19 +133,19 @@
 	<div class="container" id = "image-container">
 		<div class="row">
 			<div class="col-lg-6">
-				<h5 style = "color:#EA1F29">3-4-2-1</h5>
+				<h4 style = "color:#EA1F29">3-4-2-1</h4>
 				<p>England's usual lineup.</p>
 				<input type="image" src="https://raw.githubusercontent.com/timschott/footy-viz/main/extra/3-4-2-1.png" style="opacity: 0.6;" onclick="default_lineup()"  onmouseout="this.style.opacity=0.6;" onmouseover="this.style.opacity=1;" class="img-fluid">
 			</div>
 			<div class="col-lg-6">
-				<h5 style = "color:#2B57AC">4-2-3-1</h5>
+				<h4 style = "color:#2B57AC">4-2-3-1</h4>
 				<p>How England <i>should</i> play.</p>
 				<input type="image" src="https://raw.githubusercontent.com/timschott/footy-viz/main/extra/4-2-3-1.png" style="opacity: 0.6;" onclick="new_lineup()"  onmouseout="this.style.opacity=0.6;" onmouseover="this.style.opacity=1;" class="img-fluid">
 			</div>
 		</div>	
 	</div>
 	<div class="container" id="positions-board-title">
-		<h5><span id="tactics-title">3-4-2-1</span></h5>
+		<h4><span id="tactics-title">3-4-2-1</span></h4>
 		<p id="tactics-explainer">England's usual formation, which lost them the Euro 2020 Finals match. England scored a goal 2 minutes after kickoff, but managed just 1 shot on target the rest of the match. Trent-Alexander Arnold did not play, while <span id ='red-span'>Mason Mount</span> and <span id ='red-span'>Harry Kane</span> (highlighted in <span id ='red-span'>red</span>) performed poorly. This formation is relatively conservative, especially given the players England used. They fielded a team with 5 defenders instead of the usual 4. Their outside defenders (Shaw and Trippier) were tasked with shutting down wide options for Italy. This left England with scant attacking options.</p>
 	</div>
 	<div class="d-flex justify-content-center" id="positions-board">
@@ -165,7 +165,7 @@
 			<h3><span id ="offense-span">Harry Kane (Forward)</span></h3>
 		</div>
 		<div class = "row">
-			<h5>Just how good is England's star striker?</h5>
+			<h4>Just how good is England's star striker?</h4>
 		</div>
 	</div>
 	<div class="container" id="frame-for-kane">
@@ -199,7 +199,7 @@
 			<h3><span id ="midfield-span">Mason Mount (Midfielder)</span></h3>
 		</div>
 		<div class = "row">
-			<h5>What are Mount's best attributes?</h5>
+			<h4>What are Mount's best attributes?</h4>
 		</div>
 	</div>
 	<div class="container" id="mount-intro">
@@ -211,7 +211,7 @@
 	</div>
 	<div class="container" id = "mount-touch-intro">
 		<div class="row">
-			<h5>Where does Mount touch the ball?</h5>
+			<h4>Where does Mount touch the ball?</h4>
 		</div>
 	<br>
 	<br>
@@ -231,7 +231,7 @@
 	<br>
 	<div class="container" id = "mount-pass-intro">
 		<div class="row">
-			<h5>Where does Mount pass the ball?</h5>
+			<h4>Where does Mount pass the ball?</h4>
 		</div>
 	</div>
 	<br>
@@ -253,7 +253,7 @@
 			<h3><span id ="defense-span">Trent Alexander-Arnold (Defender)</span></h3>
 		</div>
 		<div class = "row">
-			<h5>What are Trent's strengths?</h5>
+			<h4>What are Trent's strengths?</h4>
 		</div>
 	</div>
 	<br>
