@@ -266,6 +266,11 @@
 	<br>
 	<br>
 	<div class="d-flex justify-content-center" id="joint-radar">
+		<img src="extra/radar_comparison.png" alt="together radar image" class="img-fluid">
+	</div>
+	<br>
+	<br>
+	<div class="d-flex justify-content-center" id="joint-radar">
 		<img src="extra/together_base_final.png" alt="together radar image" class="img-fluid">
 	</div>
 	<br>
