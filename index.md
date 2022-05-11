@@ -217,7 +217,7 @@
 	<br>
 	</div>
 	<div class="d-flex justify-content-center" id="mount-touch-area">
-		<center><img src="extra/mount-touches.png" width="950" height="550" alt="Mount Touches image" class="img-fluid"></center>
+		<center><img src="extra/mount-touches.png" width="950" height="450" alt="Mount Touches image" class="img-fluid"></center>
 	</div>
 	<br>
 	<br>
