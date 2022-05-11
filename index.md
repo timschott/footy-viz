@@ -71,7 +71,7 @@
 	</div>
 	<br>
 	<div class="d-flex justify-content-center" id="basic-soccer-setup">
-		<img src="extra/attack-mid-defence-map.png" alt="basic soccer setup" class="img-fluid">
+		<img src="extra/compare_final_pink.png" alt="basic soccer setup" class="img-fluid">
 	</div>
 	<br>
 	<div class="container" id ="germany-explainer">
@@ -269,7 +269,7 @@
 	<br>
 	<br>
 	<div class="d-flex justify-content-center" id="joint-radar">
-		<img src="extra/radar_comparison.png" alt="together radar image" class="img-fluid">
+		<img src="extra/radar_final_ideal.png" alt="together radar image" class="img-fluid">
 	</div>
 	<br>
 	<div class="container" id ="trent-v-walker-intro">
@@ -279,7 +279,7 @@
 	</div>
 	<br>
 	<div class="d-flex justify-content-center" id="trent-radar-image">
-		<img src="extra/radar_graph_cornflowerblue.png" alt="Trent Passing image" class="img-fluid">
+		<img src="extra/radar_final_color.png" alt="Trent Passing image" class="img-fluid">
 	</div>
 	<br>
 	<div class="container" id ="trent-v-walker-followup">
