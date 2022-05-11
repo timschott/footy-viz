@@ -276,6 +276,11 @@
 	</div>
 	<br>
 	<div class="d-flex justify-content-center" id="trent-radar-image">
+		<img src="extra/radar_graph_cornflowerblue.png" alt="Trent Passing image" class="img-fluid">
+	</div>
+	<br>
+	<br>
+	<div class="d-flex justify-content-center" id="trent-radar-image">
 		<img src="extra/trent_radar.png" alt="Trent Passing image" class="img-fluid">
 	</div>
 	<br>
