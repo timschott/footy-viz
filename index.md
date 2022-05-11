@@ -285,6 +285,8 @@
 			<p>This data lays a strong argument that Trent's attacking play style will link very well with Mount and Kane to make England an aggressive goal scoring machine. We argue that such a combination can become a World Cup winning strategy given how well all three players are currently performing.</p>
 		</div>
 	</div>
+	<br>
+	<br>
 	<div class="container" id = "title-frame-for-summary">
 		<div class = "row">
 			<h3>Summary</h3>
