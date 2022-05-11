@@ -287,7 +287,7 @@
 	<div class="container" id ="trent-v-walker-followup">
 		<div class="row">
 			<p>By imposing Trent and Kyle's play style against the ideal attacking and defensive charts above, you can see how Trent is more suited towards an attacking play style while Kyle who is more defensive.</p>
-			<p>This data lays a strong argument that Trent's attacking play style will link very well with Mount and Kane to make England an aggressive goal scoring machine. We argue that such a combination can become a World Cup winning strategy given how well all three players are currently performing.</p>
+			<p>This data lays a strong argument that <b>Trent's</b> attacking play style will link very well with <b>Mount</b> and <b>Kane</b> to make England an aggressive goal scoring machine. We argue that such a combination can become a World Cup winning strategy given how well all three players are currently performing.</p>
 		</div>
 	</div>
 	<br>
