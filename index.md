@@ -234,6 +234,7 @@
 			<h5>Where does Mount pass the ball?</h5>
 		</div>
 	</div>
+	<br>
 	<div class="d-flex justify-content-center" id="mount-pass-area">
 		<img src="extra/MOUNT'S_COMPLETED_PASSES.png" alt="Mount Passes image" class="img-fluid">
 	</div>
@@ -255,23 +256,29 @@
 			<h5>What are Trent's strengths?</h5>
 		</div>
 	</div>
+	<br>
 	<div class="container" id="trent-intro">
 		<div class="row">
-			<p>Trent is an up-and-coming defender who has consistently been performing very well in the local leagues but hasn't played a lot in England's international games. We feel his presence would make a big difference in helping Mount and Kane win games.</p>
+			<p>Trent is an up-and-coming defender who has consistently been performing very well in the local leagues but hasn't played a lot in England's international games. We feel his presence would make a big difference in helping Mount and Kane win games.</p><br>
 			<p>Let us look at some ideal attacking and defensive radar charts so we can get a good baseline understanding of different play styles and the abilities Trent offers.</p>
 		</div>
 	</div>
+	<br>
+	<br>
 	<div class="d-flex justify-content-center" id="joint-radar">
 		<img src="extra/together_base_final.png" alt="together radar image" class="img-fluid">
 	</div>
+	<br>
 	<div class="container" id ="trent-v-walker-intro">
 		<div class="row">
 			<p>Let us now contrast these shapes to how Trent compares to other talented defenders currently in England's International team such as Kyle Walker.</p>
 		</div>
 	</div>
+	<br>
 	<div class="d-flex justify-content-center" id="trent-radar-image">
 		<img src="extra/trent_radar.png" alt="Trent Passing image" class="img-fluid">
 	</div>
+	<br>
 	<div class="container" id ="trent-v-walker-followup">
 		<div class="row">
 			<p>By imposing Trent and Kyle's play style against the ideal attacking and defensive charts above, you can see how Trent is more suited towards an attacking play style while Kyle who is more defensive.</p>
